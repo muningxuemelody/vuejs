@@ -7,18 +7,18 @@
 		</ul>
 	</header>
 	<section>
-
+		Hello world
 	</section>
 	<footer>
 			<ul>
 				<li>
-					<i></i>
-					<b></b>
+					<i>Hello</i>
+					<b> World</b>
 				</li>
 				<li></li>
 				<li></li>
 				<li></li>
 				<li></li>
-			</ul>	
+			</ul>
 	</footer>
 </div>
