@@ -11,12 +11,14 @@
 	</section>
 	<footer>
 			<ul>
-				<li></li>
+				<li>
+					<i></i>
+					<b></b>
+				</li>
 				<li></li>
 				<li></li>
 				<li></li>
 				<li></li>
 			</ul>	
 	</footer>
-</div
->
+</div>
