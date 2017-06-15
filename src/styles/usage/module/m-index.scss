@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+
+@import "./common";
+.m-index{
+	@include flexbox();
+	@include flex-direction(column)
+	height:100%;
+	header{
+		height:.44rem;
+		background:red;
+		ul{
+			@include flexbox();
+			height:100%;
+			li:first-child,
+			li:last-child{
+				width:.44rem;
+				height:100%;
+			}
+			li:nth-child(2){
+				@include flex();
+			}
+		}
+	}
+	section{
+		background:gray;
+		@include flex();
+		width:100%;
+	}
+	footer{
+		height:.44rem;
+		background:blue;
+	}
+	>*{
+		width:100%;
+	}
+}
